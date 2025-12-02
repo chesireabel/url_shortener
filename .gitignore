@@ -1,0 +1,39 @@
+# ---------- Go ----------
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go coverage
+coverage.out
+
+# ---------- Build Outputs ----------
+/bin/
+/build/
+
+# ---------- Environment files ----------
+.env
+.env.*
+
+# ---------- IDE / Editors ----------
+.vscode/
+.idea/
+*.swp
+
+# ---------- OS ----------
+.DS_Store
+Thumbs.db
+
+# ---------- Logs ----------
+*.log
+
+# ---------- Database Local Stuff ----------
+*.sql
+.pgpass
+
+# ---------- Temporary files ----------
+tmp/
+temp/
